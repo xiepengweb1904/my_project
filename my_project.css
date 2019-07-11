@@ -26,3 +26,12 @@ margin: 0 auto}
 #d1{
     float: left;
 }
+.d_foot{float: left;
+margin-top:50px;
+}
+.d_foot div{
+    display: block;
+    float: left;
+    text-align: center;
+}
+.d_foot ul li{list-style-type:none ;}
