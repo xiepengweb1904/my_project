@@ -1,0 +1,28 @@
+*{margin: 0;padding: 0}
+.logo1{height: 92px;
+background: linear-gradient(to right,#e2e2e2,#f6f6f6)}
+.logo_img{width: 113px;height: 92px;
+margin: 0 auto}
+.logo2{
+    height: 58px;
+    background: #f3f3f3;
+    float: left;
+    width: 100%;
+}
+.logo2_ul a{
+    text-decoration: none;
+}
+.logo2_ul li{
+    width: 167px;
+    height: 38px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.logo2 span{
+    font-size: 13px;
+    color: black
+}
+#d1{
+    float: left;
+}
