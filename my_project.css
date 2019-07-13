@@ -26,8 +26,10 @@ margin: 0 auto}
 #d1{
     float: left;
 }
-.d_foot{float: left;
+.d_foot{width: 100%;
+    float: left;
 margin-top:50px;
+border-top: 1px solid #7c7c7c
 }
 .d_foot div{
     display: block;
@@ -35,3 +37,13 @@ margin-top:50px;
     text-align: center;
 }
 .d_foot ul li{list-style-type:none ;}
+.d_foot1 li {
+    margin: 5px;
+    float: none;
+    color: #7c7c7c;
+    font-size: 13px;
+}
+.d_foot1_li {
+    color: #575757 !important;
+    font-size: 16px !important;
+}
