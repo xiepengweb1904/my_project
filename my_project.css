@@ -33,7 +33,6 @@ border-top: 1px solid #7c7c7c
 }
 .d_foot div{
     display: block;
-    float: left;
     text-align: center;
 }
 .d_foot ul li{list-style-type:none ;}
@@ -47,3 +46,23 @@ border-top: 1px solid #7c7c7c
     color: #575757 !important;
     font-size: 16px !important;
 }
+.d_foot2{
+    width: 100%;
+    border-top: 1px solid #7c7c7c;
+}
+.d_foot2_1{
+    margin: 10px auto;
+}
+.d_foot2_1 li{
+    display: inline;
+    text-align: center;
+}
+.d_foot2_1 a {
+    font-size: 13px;
+    color: #575757 !important;
+}
+.d_foot2_1 p{
+    font-size: 13px;
+    color: #575757 !important;
+}
+
