@@ -4,55 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style type="text/css"></style>
     <title>Document</title>
     <link rel="stylesheet" href="CSS/bootstrap.css"/>
     <script src="JS/jquery.min.js"></script>
     <script src="JS/popper.min.js"></script>
     <script src="JS/bootstrap.min.js"></script>
     <link rel="stylesheet" href="my_project.css">
-
 </head>
 <body>
 <div class="container">
     <div class="logo1">
         <div class="logo_img">
-            <img src="img/logo.png" alt="" width="100%">
+            <img src="img/logo.png"width="100%">
         </div>
     </div>
     <div class="logo2">
-        <ul class="logo2_ul">
-            <li>
-                <a href="">
-                    <span>首页</span>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <span>车型产品</span>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <span>服务支持</span>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <span>优享金融</span>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <span>品牌故事</span>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <span>品牌咨询</span>
-                </a>
-            </li>
-            
-        </ul>
+        <span>首页</span>
+				<span>车型产品  </span>  
+              
+				
+					<span>服务支持</span>
+						
+        
+					<span >优享金融</span>
+				
+        
+					<span >品牌故事</span>
+				          
+        
+					<span>品牌咨询</span>
+				
     </div>
     <div class="carousel"id="demo"data-ride="carousel">
         <div class="carousel-inner">
@@ -87,42 +69,42 @@
         </ul>
     </div>
     <div class="row mx-0">
-        <div id="d1" class="col-lg-4">
+        <div id="d1" class="col-lg-4 col-md-6">
             <a href="">
             <div >
                 <img src="img/L5f.jpg" alt="">
             </div>
             </a>
         </div>
-        <div id="d1" class="col-lg-4">
+        <div id="d1" class="col-lg-4 col-md-6">
             <a href="">
             <div >
                 <img src="img/H7f.jpg" alt="">
             </div>
             </a>
         </div>
-        <div id="d1"class="col-lg-4">
+        <div id="d1"class="col-lg-4 col-md-6">
             <a href="">
             <div >
                 <img src="img/H5f.jpg" alt="">
             </div>
             </a>
         </div>
-        <div id="d1"class="col-lg-4">
+        <div id="d1"class="col-lg-4 col-md-6">
             <a href="">
             <div >
                 <img src="img/lf.jpg" alt="">
             </div>
             </a>
         </div>
-        <div id="d1"class="col-lg-4">
+        <div id="d1"class="col-lg-4 col-md-6">
             <a href="">
             <div >
                 <img src="img/hs5f.jpg" alt="">
             </div>
             </a>
         </div>
-        <div id="d1"class="col-lg-4">
+        <div id="d1"class="col-lg-4 col-md-6">
             <a href="">
             <div >
                 <img src="img/rf.jpg" alt="">
@@ -150,7 +132,7 @@
    </div>
    <!-- foot -->
    <div class="d_foot row w-100 mx-0">
-        <div class="col-lg-2 d_foot1 color">
+        <div class="col-lg-2 col-md-4 d_foot1 color">
             <ul>
                 <li class="d_foot1_li">车型产品</li>
                 <li>L5</li>
@@ -158,7 +140,7 @@
                 <li>新H5</li>
             </ul>
         </div>
-        <div class="col-lg-2 d_foot1">
+        <div class="col-lg-2 col-md-4 d_foot1">
             <ul>
                 <li class="d_foot1_li">服务支持</li>
                 <li>服务理念</li>
@@ -166,14 +148,14 @@
                 <li>服务网点</li>
             </ul>
         </div>
-         <div class="col-lg-2 d_foot1">
+         <div class="col-lg-2 col-md-4 d_foot1">
             <ul>
                 <li class="d_foot1_li">优享金融</li>
                 <li>金融方案</li>
                 <li>购车计算器</li>
             </ul>
         </div>
-        <div class="col-lg-2 d_foot1">
+        <div class="col-lg-2 col-md-4 d_foot1">
             <ul>
                 <li class="d_foot1_li">品牌故事</li>
                 <li>红旗历史</li>
@@ -181,7 +163,7 @@
                 <li>加入红旗</li>
             </ul>
          </div>
-         <div class="col-lg-2 d_foot1">
+         <div class="col-lg-2 col-md-4 d_foot1">
              <ul>
                  <li class="d_foot1_li">品牌咨询</li>
                  <li>品牌新闻</li>
@@ -189,10 +171,12 @@
              </ul>
          </div>
          <div>
+					<a href="" style="color: #575757">
              <img src="img/top_03.png" alt="">
              <p>返回顶部</p>
              <p>24小时全天候服务热线</p>
              <p>4008-171717</p>
+					</a>
          </div>
         <!-- foot2 -->
         <div class="d_foot2">
@@ -222,5 +206,17 @@
         </div>
    </div>
 </div>
+</div>
+</div>
+</div>
 </body>
 </html>
+<script type="text/javascript">
+    document.getElementById("a").onmouseover = function(){
+        document.getElementById("b").style.display = "block";
+    }
+
+    document.getElementById("a").onmouseout = function(){
+        document.getElementById("b").style.display = "none";
+    }
+</script>
